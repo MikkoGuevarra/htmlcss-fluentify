@@ -56,7 +56,6 @@ nav {
 }
 
 .jumbotron {
-    height: 400px;
     z-index: 2;
     position: relative;
     /* background-color: pink; */
@@ -165,7 +164,9 @@ nav {
 
 .jumbotron-content {
     width: 65%;
-    padding: 150px 0;
+    padding-top: 60px;
+    padding-bottom: 150px;
+    padding-left: 100px;
 }
 
 .jumbotron-content h4 {
@@ -174,7 +175,14 @@ nav {
 }
 
 .jumbotron-content h1 {
-    font-size: 50px;
+    font-size: 55px;
+    margin: 20px 0;
+}
+
+.jumbotron-content p {
+    letter-spacing: 2px;
+    font-size: 15px;
+    margin-bottom: 40px;
 }
 
 /* ----FINE JUMBOTRON----- */
