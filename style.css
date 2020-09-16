@@ -159,7 +159,22 @@ nav {
     font-size: 15px;
 }
 
-
-
-
 /* ---------fine right side header part----------  */
+
+/* ----- JUMBOTRON PART----- */
+
+.jumbotron-content {
+    width: 65%;
+    padding: 150px 0;
+}
+
+.jumbotron-content h4 {
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.jumbotron-content h1 {
+    font-size: 50px;
+}
+
+/* ----FINE JUMBOTRON----- */
