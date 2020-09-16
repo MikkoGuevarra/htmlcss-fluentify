@@ -202,8 +202,6 @@ nav {
 
 .section-one-left img {
     padding-top: 200px;
-    width: 140px;
-    height: 140px;
     max-width: 100%;
 }
 
@@ -232,17 +230,16 @@ h2 {
 }
 
 section .container {
-    border: 1px solid black;
     padding-bottom: 100px;
 }
 /* -----fine section 1----- */
 
 /* -----section 2----- */
 .section-two .container {
-    padding: 0 100px 80px 100px;
+    padding: 0 100px 0 100px;
 }
 
-.section-two h2 {
+.section-two > h2 {
     text-align: center;
 }
 
@@ -263,6 +260,38 @@ section .container {
     width: 140px;
     height: 140px;
     max-width: 100%;
+}
+
+.columns p {
+    padding: 10px 20px;
+    line-height: 25px;
+}
+
+.app-mobile {
+    width: 100%;
+    background-color: #011b50;
+}
+
+.left-side-mobile {
+    width: 50%;
+    color: white;
+    float: left;
+}
+
+.columns:last-child {
+    margin-bottom: 100px;
+}
+
+
+.left-side-mobile a {
+    color: #64DE82;
+    text-decoration: none;
+    font-size: 18px;
+    display: inline-block;
+    padding-top: 20px;
+}
+.right-side-mobile {
+    float: left;
 }
 
 
