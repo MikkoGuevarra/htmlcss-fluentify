@@ -92,7 +92,24 @@ nav {
     text-decoration: none;
     color: white;
     text-transform: uppercase;
+    font-size: 15px;
+    position: relative;
 }
+
+.current-menu::before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #64DE82;
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+    left: -11px;
+    z-index: -1;
+}
+
+
 
 /* ----------fine left side header part---------- */
 /*
@@ -104,6 +121,7 @@ nav {
     line-height: 100px;
     height: 100px;
     vertical-align: bottom;
+    text-align: right;
 }
 
 .button {
@@ -113,6 +131,8 @@ nav {
     text-decoration: none;
     padding: 10px 25px;
     border: 1px solid #64DE82;
+    margin-right: 5px;
+    text-transform: uppercase;
 }
 
 .button:hover {
@@ -124,13 +144,19 @@ nav {
     color: #fff;
     background-color: transparent;
     border: 1px solid #fff;
-    margin-right: 5px;
 }
 
 #login-btn:hover {
     background-color: #fff;
     border-color: transparent;
     color: #001A4F;
+}
+
+#language {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
 }
 
 
