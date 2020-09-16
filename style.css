@@ -5,6 +5,135 @@
 }
 
 /* -----COMMON PARTS----- */
+body {
+    font-family: 'Maven Pro', sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', sans-serif;
+}
 
 
 /* -----FINE COMMON PARTS----- */
+
+/* -----HEADER PART----- */
+
+/* ----------left side header part---------- */
+header {
+    background-color: #001a4f;
+    background-image: url(https://www.fluentify.com/home/wp-content/uploads/2020/01/fluentify-cover-privati-scaled.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    color: white;
+}
+
+header::before {
+    display: block;
+    content: "";
+    background: linear-gradient(270deg, transparent 0%, #001A4F 100%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    width: 1240px;
+    margin: auto;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+nav {
+    height: 100px;
+    z-index: 2;
+    position: relative;
+}
+
+.jumbotron {
+    height: 400px;
+    z-index: 2;
+    position: relative;
+    /* background-color: pink; */
+}
+
+.left-side-nav {
+    width: 70%;
+    height: 100px;
+    float: left;
+}
+
+.logo-part {
+    padding: 30px 0;
+    display: inline-block;
+    margin-right: 40px;
+}
+
+.left-side-nav ul {
+    display: inline-block;
+}
+
+.left-side-nav li {
+    display: inline-block;
+    list-style: none;
+    line-height: 40px;
+    height: 40px;
+    vertical-align: bottom;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.left-side-nav ul li a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+/* ----------fine left side header part---------- */
+/*
+/* ----------right side header part---------- */
+.right-side-nav {
+    width: 30%;
+    height: 100px;
+    float: left;
+    line-height: 100px;
+    height: 100px;
+    vertical-align: bottom;
+}
+
+.button {
+    border-radius: 5px;
+    background-color: #64DE82;
+    color: #337142;
+    text-decoration: none;
+    padding: 10px 25px;
+    border: 1px solid #64DE82;
+}
+
+.button:hover {
+    color: #fff;
+    background-color: rgba(100,222,130,0.7)
+}
+
+#login-btn {
+    color: #fff;
+    background-color: transparent;
+    border: 1px solid #fff;
+    margin-right: 5px;
+}
+
+#login-btn:hover {
+    background-color: #fff;
+    border-color: transparent;
+    color: #001A4F;
+}
+
+
+
+
+/* ---------fine right side header part----------  */
