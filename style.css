@@ -63,11 +63,15 @@ header::before {
 nav {
     height: 100px;
     z-index: 2;
-    position: relative;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: #061f53;
 }
 
 .jumbotron {
-    z-index: 2;
+    z-index: 1;
     position: relative;
     /* background-color: pink; */
 }
@@ -107,7 +111,7 @@ nav {
 }
 
 .left-side-nav ul li a:hover {
-    color: #001A4F;
+    color: #fff;
     opacity: 0.7;
 }
 }
@@ -178,6 +182,10 @@ nav {
 /* ---------fine right side header part----------  */
 
 /* ----- JUMBOTRON PART----- */
+
+.jumbotron {
+    padding-top: 100px;
+}
 
 .jumbotron-content {
     width: 65%;
@@ -463,6 +471,7 @@ h6 {
 .termini-condizioni ul li {
     list-style: none;
     display: inline-block;
+    padding-right: 25px;
 }
 
 /* -----fine footer----- */
@@ -476,7 +485,7 @@ h6 {
 
 #top-decor-right {
     position: absolute;
-    width: 150px;
+    width: 100px;
     top: -50px;
     right: 0;
 }
@@ -500,6 +509,9 @@ h6 {
     width: 150px;
     top: 2300px;
     right: 0;
+}
+.decoration {
+    z-index: 2;
 }
 
 
