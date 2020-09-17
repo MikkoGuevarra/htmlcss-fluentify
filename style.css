@@ -8,6 +8,7 @@
 body {
     font-family: 'Maven Pro', sans-serif;
     color: #727272;
+    position: relative;
 }
 p {
     font-size: 18px;
@@ -103,6 +104,12 @@ nav {
     text-transform: uppercase;
     font-size: 15px;
     position: relative;
+}
+
+.left-side-nav ul li a:hover {
+    color: #001A4F;
+    opacity: 0.7;
+}
 }
 
 .current-menu::before {
@@ -456,4 +463,46 @@ h6 {
 .termini-condizioni ul li {
     list-style: none;
     display: inline-block;
+}
+
+/* -----fine footer----- */
+
+#top-decor-left {
+    position: absolute;
+    width: 200px;
+    top: 0;
+    left: 0;
+}
+
+#top-decor-right {
+    position: absolute;
+    width: 150px;
+    top: -50px;
+    right: 0;
+}
+
+#mid-decor-right {
+    position: absolute;
+    width: 150px;
+    top: 1100px;
+    right: 0;
+}
+
+#bottom-decor-left {
+    position: absolute;
+    width: 250px;
+    top: 2200px;
+    left: 0;
+}
+
+#bottom-decor-right {
+    position: absolute;
+    width: 150px;
+    top: 2300px;
+    right: 0;
+}
+
+
+.decoration img {
+    max-width: 100%;
 }
