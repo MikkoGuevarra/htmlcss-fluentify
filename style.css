@@ -370,3 +370,51 @@ section .container {
     padding-left: 60px;
 }
 /* -----fine section 3----- */
+
+/* -----inizio footer----- */
+
+footer {
+    background-color: #011b50;
+    color: white;
+}
+
+footer .container {
+    padding: 50px 0;
+}
+
+.left-footer {
+    width: 15%;
+    float: left;
+}
+
+.right-footer {
+    height: 500px;
+    background-color: gold;
+    width: 85%;
+    float: left;
+}
+
+footer p {
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.left-footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-social {
+    margin-top: 20px;
+}
+
+.social .fab {
+    padding-right: 10px;
+    color: #64DE82;
+}
+
+.social:hover {
+    opacity: 0.6;
+}
